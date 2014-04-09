@@ -2,9 +2,10 @@ import sys
 import copy
 import random
 
-#you can edit this task list to contain the actual tasks you have. Just keep the format.
-#("name of task",num of minutes task takes)
-tasks=[("math hwk",120),("project proposal",5),("make lunch",45),("os",120)]
+#you can edit this task list to contain the actual tasks you have. Just keep the format:
+#[("name of task",num of minutes task takes),("next task",time)]
+#for example, if I have math homework that will take 2 hours: ("math hwk",160)
+tasks=[]
 taskNames = ""
 
 for task in tasks:
